@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Corazón Late</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="neon">MI CORAZÓN LATE...</h1>
+    <div class="date">• Te quiero •</div>
+
+    <svg viewBox="0 0 1000 300" class="ecg">
+
+        <!-- Línea izquierda -->
+        <path id="line-left" d="
+            M 0 150 
+            L 120 150 
+            L 150 150 
+            L 170 120 
+            L 190 180 
+            L 210 60 
+            L 230 220 
+            L 250 150 
+            L 400 150
+        "/>
+
+        <!-- Corazón -->
+        <path id="heart" d="
+            M 500 150 
+            C 500 130, 530 130, 530 150
+            C 530 170, 500 190, 500 210
+            C 500 190, 470 170, 470 150
+            C 470 130, 500 130, 500 150
+        "/>
+
+        <!-- Línea derecha -->
+        <path id="line-right" d="
+            M 600 150 
+            L 720 150 
+            L 750 150 
+            L 770 120 
+            L 790 180 
+            L 810 60 
+            L 830 220 
+            L 850 150 
+            L 1000 150
+        "/>
+
+    </svg>
+
+    <h2 class="neon">... SOLO POR TI</h2>
+</div>
+
+<script src="./src/index.js"></script>
+</body>
+</html>
